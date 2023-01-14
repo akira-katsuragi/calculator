@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/929a26cd44.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <input type="text" class="screen" id="inputElement">
+        </form>
+        <div class="buttons">
+
+            <div class="head">
+                <button type="button" class="btn siu btn-clear item AC"><img src="../assets/AC.svg" alt=""></button>
+                <button type="button" class=" siu item  s-btn OP r-zize mrg" id="delete"  onclick="deleteChar(document.getElementById('inputElement'))"><img src="../assets/Clear.svg" alt=""></button>
+                <button type="button" class="btn siu item s-btn OP r-zize mrg" data-num="/" ><img data-num="/" src="../assets/divide.svg" alt=""></button>
+            </div>
+            <div class="numpad">
+                <button type="button" class="btn item s-btn whale" data-num="7">7</button>
+                <button type="button" class="btn item s-btn whale" data-num="8">8</button>
+                <button type="button" class="btn item s-btn whale" data-num="9">9</button>
+                <button type="button" class="btn siu s-btn OP" data-num="*"><img data-num="*" src="../assets/multiple.svg" alt=""></button>
+                <button type="button" class="btn item s-btn whale" data-num="4">4</button>
+                <button type="button" class="btn item s-btn whale" data-num="5">5</button>
+                <button type="button" class="btn item s-btn whale" data-num="6">6</button>
+                <button type="button" class="btn siu item s-btn OP" data-num="-"><img data-num="-" src="../assets/minus.svg" alt=""></button>
+                <button type="button" class="btn item s-btn whale" data-num="1">1</button>
+                <button type="button" class="btn item s-btn whale" data-num="2">2</button>
+                <button type="button" class="btn item s-btn whale" data-num="3">3</button>
+                <button type="button" class="btn siu item s-btn OP" data-num="+"><img data-num="+" src="../assets/plus.svg" alt=""></button>
+            </div>
+            <div class="bottom">
+                <button type="button" class="btn item s-btn r-zize whale" data-num="0">0</button>
+                <button type="button" class="btn item s-btn r-zize whale" data-num="."><img data-num="." src="../assets/dot.svg" alt=""></button>
+                <button type="button" class="siu btn-equal item AC"><img src="../assets/=.svg" alt=""></button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

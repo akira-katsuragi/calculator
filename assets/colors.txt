@@ -1,0 +1,4 @@
+background color => #49A078
+Operation key with outline => #30B043
+Screen color => #313135
+main body color => #1B1B1E
