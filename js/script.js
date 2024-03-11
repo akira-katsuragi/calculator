@@ -2,7 +2,7 @@
     let screen = document.querySelector('.screen');
     let buttons = document.querySelectorAll('.btn');
     let clear = document.querySelector('.btn-clear');
-    let eqaul = document.querySelector('.btn-equal')
+    let eqaul = document.querySelector('.btn-equal');
     let del = document.querySelector('#delete');
 
     buttons.forEach(function(button){
